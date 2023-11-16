@@ -1,0 +1,90 @@
+.layer {
+  /* Les images ont une résolution de 3500px x 1038px */
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+
+.parallax-container,
+.layer {
+  height: 1000px;
+}
+
+.parallax {
+  position: fixed;
+  transition: transform 0s;
+}
+
+#layer-0 {
+  background-image: url("./images/parallax0.png");
+}
+
+#layer-1 {
+  background-image: url("./images/parallax1.png");
+}
+
+#layer-2 {
+  background-image: url("./images/parallax2.png");
+}
+
+#layer-3 {
+  background-image: url("./images/parallax3.png");
+}
+
+#layer-4 {
+  background-image: url("./images/parallax4.png");
+}
+
+#layer-5 {
+  background-image: url("./images/parallax5.png");
+}
+
+#layer-6 {
+  background-image: url("./images/parallax6.png");
+}
+
+#layer-7 {
+  background-image: url("./images/parallax7.png");
+}
+
+#layer-8 {
+  background-image: url("./images/parallax8.png");
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* ------------- 🔥 ------------ */
+/* ----------------------------- */
+/* ----------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #210002;
+}
+
+section {
+  display: block;
+  background: #210002;
+  position: relative;
+  z-index: 30;
+}
+
+.container {
+  color: #ffaf1b;
+  max-width: 600px;
+  padding: 3rem 0;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 1.66;
+  filter: blur(3px);
+}
